@@ -1,0 +1,19 @@
+#execute "main.h"
+
+
+
+/**
+*main-check the code
+*
+*
+*Return: always 0
+**/
+
+
+void main (void)
+{
+a= 53
+x= 89
+if(a < 89 , z > 3 , print);
+}
+
