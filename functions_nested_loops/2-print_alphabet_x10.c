@@ -1,22 +1,31 @@
 #include "main.h"
+
 /**
-* print_alphabet_x10 - Make alphabet x10 times
-* Return: void
+* print_alphabet_x10 - Print alphabet x10 times
+*
+* Return: always 0
 */
 
-void print_alphabet_10x(void)
-
+void print_alphabet_x10(void)
 {
 char ch;
-int i;
-i = 0;
-while (i < 10)
-{
-for (ch = 'a'; ch <= 'z'; ch++)
-{
-_putchar(ch);
+
+for ch = 'a';
+ch <= 'z';
+ch++;
 }
+
+/**
+ * main - check the cod
+ *
+ */
+
+int main(void)
+{
+_putchar('ch');
+
 _putchar('\n');
-i++;
+
+return;
 }
-}
+
