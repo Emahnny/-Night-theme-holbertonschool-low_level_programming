@@ -14,7 +14,7 @@ if ((e == 50) || (e == 52))
 {
 continue;
 }
-_putchar(number);
+_putchar(e);
 }
 _putchar(10);
 }
