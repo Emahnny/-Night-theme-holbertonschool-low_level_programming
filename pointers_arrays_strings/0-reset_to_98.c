@@ -1,4 +1,5 @@
 #include "main.h"
+
 /*
 *reset_to_98 - reset value of an int to 98
 *@n: parameter targeted
