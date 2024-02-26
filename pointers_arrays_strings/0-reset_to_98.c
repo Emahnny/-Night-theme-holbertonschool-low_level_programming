@@ -1,18 +1,11 @@
-#include <stdio.h>
-
+#include "main.h"
 /*
- *main - change value of 'n to 98
- *
- *Return: 0
- *
- **/
+*reset_to_98 - reset value of an int to 98
+*@n: parameter targeted
+*Return: void
+**/
 
-int main(void)
+void reset_to_98(int *n)
 {
-int n;
-n = 402;
-int *miparametro = &n;
-*miparametro = 98;
-return (0);
+*n = 98;
 }
-
