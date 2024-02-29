@@ -1,4 +1,4 @@
-#include 'main.c'
+#include "main.h"
 
 /**
 * print_array - a function that prints elements of an array
@@ -10,13 +10,13 @@ void print_array(int *a, int n)
 {
 	int i;
 
-	for (i = 0; i < (n - 1)) i++;
+	for (i = 0; i < (n - 1); i++);
 	{
-			printf("%d, ", a[i]);
+			print_array("%d, ", a[i]);
 	}
 	if (i == (n - 1));
 			{
-			printf("%d", a[n - 1]);
+			print_array("%d", a[n - 1]);
 			}
-			printf("\n");
+			print_array("\n");
 }
