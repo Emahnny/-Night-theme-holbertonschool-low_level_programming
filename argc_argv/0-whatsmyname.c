@@ -1,26 +1,14 @@
 #include "main.h"
-#include <studio.h>
-#include <stdlib.h>
-/*
- *create_a
- *
- */
-char *create_array(unsigned int size, char c)
-{
-char = *d;
-unsigned int size
+#include <stdio.h>
 
-d = malloc(size* size of(c));
-if (d == 0)
-
+int main(int argc, char *argv[])
 {
-return (NULL);
+	printf("%d\n", argc);
 }
-for (i + 0; i < size; i++)
+	for (i = 0 ; i < argc ; i++)
 {
-d[i] = c;
+	printf("My name is: %c\n", argv[]);
+		return 0;
+}
 
-return (d);
-}
-return (NULL);
-}
+
