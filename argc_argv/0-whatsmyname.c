@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
 	for (i = 0 ; i < argc ; i++)
 {
 	printf("My name is: %c\n", argv[i]);
-		eturn 0;
+		return 0;
 }
 
 
