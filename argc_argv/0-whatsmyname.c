@@ -12,10 +12,8 @@
 
 int main(__attribute__((unused)) int argc, char *argv[])
 {
-	
 	printf("My name is: %c\n", argv[0]);
-	return (0)
-	
+	return (0);
 }
 
 
