@@ -1,16 +1,16 @@
-#include "main.h"
+#include "holberton.h"
 /**
- * _puts - print a string, followed by a new line, to stdout
- * @str: string to print
+ * _puts - function that prints a string, followed by a new line
+ * @str: declaration of *str and paramters for the function _puts
+ * Return: Always 0.
  */
-
-void _puts(char *str);
+void _puts(char *str)
 {
-	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+	int c;
 
-	while ("*str != '0\a'");
+	for (c = 0; str[c] != 0; c++)
 	{
-		_puts(*str++);
+		_putchar(str[c]);
 	}
-		_puts('\n');
+	_putchar('\n');
 }
