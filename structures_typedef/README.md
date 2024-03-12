@@ -8,4 +8,4 @@
 3.Define a new type dog_t
  as a new name for the type struct dog.
 
-4.Write a function that creates a new dog
+4.Write a function that creates a new dogI.
